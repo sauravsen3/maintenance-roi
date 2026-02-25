@@ -74,6 +74,16 @@ At 35% failure probability, spending £5,000 now avoids an expected £34,300 in 
 
 ---
 
+## Research References
+
+This project draws on established research in predictive maintenance and industrial asset management:
+
+- Saxena, A., Goebel, K., Simon, D., & Eklund, N. (2008). *Damage Propagation Modeling for Aircraft Engine Run-to-Failure Simulation*. NASA Ames Research Center. — The foundational paper behind the CMAPSS turbofan engine dataset, the industry standard benchmark for predictive maintenance research.
+
+- McKinsey & Company (2017). *Maintenance Revolution: Predictive Maintenance and the Future of Infrastructure Management*. — McKinsey research demonstrating that predictive maintenance reduces unexpected equipment failures by up to 50% and lowers maintenance costs by 10-25% versus reactive strategies.
+
+---
+
 ## Future Upgrades
 
 - Replace synthetic data with NASA CMAPSS turbofan engine dataset (publicly available real sensor data)
@@ -114,5 +124,3 @@ maintenance-roi/
 - **Streamlit** — interactive web dashboard with live sliders
 - **Plotly** — interactive feature importance chart
 - **pandas / numpy** — data generation and manipulation
-
----
